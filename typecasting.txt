@@ -1,0 +1,23 @@
+//byte -> short -> char -> int -> long -> float -> double  
+
+public class WideningTypeCastingExample  
+{  
+public static void main(String[] args)  
+{  
+int x = 7;  
+//automatically converts the integer type into long type  
+long y = x;  
+//automatically converts the long type into float type  
+float z = y;  
+System.out.println("Before conversion, int value "+x);  
+System.out.println("After conversion, long value "+y);  
+System.out.println("After conversion, float value "+z);  
+}  
+}  
+
+
+output
+
+Before conversion, the value is: 7
+After conversion, the long value is: 7
+After conversion, the float value is: 7.0
